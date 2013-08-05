@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     >
+    
+    <RelativeLayout 
+        android:id="@+id/master_list_rl1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="230dp"
+	    android:layout_marginTop="3dp"
+	    android:layout_marginLeft="3dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginBottom="5dp"
+	    android:background="@drawable/masterlist_item_bg2"
+	    android:orientation="horizontal"
+	     >
+	
+	    <LinearLayout
+	        android:id="@+id/master_list_ll1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_above="@+id/master_list_ll2"
+	        android:layout_marginRight="5dip"
+	        android:layout_marginLeft="5dip"
+	        android:paddingBottom="3dp"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+	
+	        <ProgressBar
+	            android:id="@+id/master_item_pbar"
+	            style="?android:attr/progressBarStyleHorizontal"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:progress="67" />
+	       
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:id="@+id/master_list_ll2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/master_list_rl3"
+	        android:orientation="horizontal"
+	        android:paddingBottom="8dp"
+	        android:gravity="center">
+	
+	        <TextView
+	            android:id="@+id/master_item_tv_reachnum"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="15sp"
+	            android:layout_marginRight="20dp"
+	            android:text="91%达到" />
+	
+	        <TextView
+	            android:id="@+id/master_item_tv_supportnum"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="15sp"
+	            android:text="8,426已获支持" />
+	
+	        <TextView
+	            android:id="@+id/master_item_tv_remaintime"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="15sp"
+	            android:text="16天剩余时间" />
+	        
+	    </LinearLayout>
+	
+	    <RelativeLayout
+	        android:id="@+id/master_list_rl3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:orientation="horizontal"
+	        android:paddingBottom="8dp" >
+	
+	        <TextView
+	            android:id="@+id/master_item_tv_attentionnum"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="10dp"
+	            android:layout_toLeftOf="@+id/master_item_iv_attention"
+	            android:textColor="@color/pink"
+	            android:text="30" />
+	
+	        <ImageView
+	            android:id="@+id/master_item_iv_attention"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="15dp"
+	            android:layout_toLeftOf="@+id/master_item_tv_discussnum"
+	            android:src="@drawable/left_iv_attention" />
+	
+	        <TextView
+	            android:id="@+id/master_item_tv_discussnum"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="10dp"
+	            android:layout_toLeftOf="@+id/master_item_iv_discuss"
+	            android:textColor="@color/pink"
+	            android:text="15" />
+	
+	        <ImageView
+	            android:id="@+id/master_item_iv_discuss"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="15dp"
+	            android:layout_toLeftOf="@+id/master_item_tv_sharenum"
+	            android:src="@drawable/left_iv_discuss" />
+	
+	        <TextView
+	            android:id="@+id/master_item_tv_sharenum"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toLeftOf="@+id/master_item_iv_share"
+	            android:layout_marginRight="8dp"
+	            android:text="675"
+	            android:textColor="@color/pink" />
+	        
+	        <ImageView
+	            android:id="@+id/master_item_iv_share"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="30dp"
+	            android:src="@drawable/left_iv_share" />
+	
+	        
+	
+	    </RelativeLayout>
+	
+	</RelativeLayout>
+	
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+        
+    </LinearLayout>
+    
+</LinearLayout>
+
+
+

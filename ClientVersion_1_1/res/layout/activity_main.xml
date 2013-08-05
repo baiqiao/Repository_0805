@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/homeLeft"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+            
+            
+            <include layout="@layout/left_menu"></include>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/homeRight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+           
+            <include layout="@layout/right_menu"></include>
+            
+        </LinearLayout>
+
+        
+
+        <com.example.clientversion_1.view.HomeCenterLayout
+            android:id="@+id/homeCenter"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@android:color/white" >
+
+                <include
+                    android:layout_width="match_parent"
+                    layout="@layout/home_header" />
+                
+                <ListView
+		            android:id="@+id/lvhome"
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent" >
+		        </ListView>
+
+            </LinearLayout>
+        </com.example.clientversion_1.view.HomeCenterLayout>
+    </FrameLayout>
+
+</LinearLayout>

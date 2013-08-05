@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/masterlist_item_bg2" >
+
+
+	<RelativeLayout 
+	    android:id="@+id/top_navigate"
+	    android:layout_width="fill_parent"
+	    android:layout_height="200dp"
+	    android:layout_marginTop="1dp"
+	    android:layout_marginLeft="1dp"
+	    android:layout_marginRight="1dp"
+	    android:layout_marginBottom="10dp"
+	    android:orientation="horizontal" >
+	
+	    <LinearLayout
+	        android:id="@+id/master_list_ll1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_above="@+id/master_list_ll2"
+	        android:layout_marginRight="10dip"
+	        android:layout_marginLeft="10dip"
+	        android:paddingBottom="8dp"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+	
+	        <ProgressBar
+	            android:id="@+id/progressBar1"
+	            style="?android:attr/progressBarStyleHorizontal"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:progress="67" />
+	       
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:id="@+id/master_list_ll2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        android:paddingBottom="15dp" >
+	
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="20dp"
+	            android:text="91%达到"
+	            android:textSize="15sp" />
+	
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="8,426已获支持"
+	            android:textSize="15sp" />
+	
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:text="16天剩余时间"
+	            android:textSize="15sp" />
+	    </LinearLayout>
+	
+	</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <FrameLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+	            android:id="@+id/right_tv_itemname"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:paddingTop="8dp"
+	            android:paddingBottom="8dp"
+	            android:background="@drawable/selector_userinfo_button"
+	            android:textSize="18sp"
+	            android:paddingLeft="15dp"
+	            android:text="@string/foodopt" />
+            
+            
+            <TextView 
+				android:id="@+id/right_tv_itemnum" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:textSize="15sp"
+				android:layout_gravity="center" 
+				android:layout_marginLeft="80dp" 
+				android:layout_marginTop="1dip"
+				android:text="675"
+				android:textColor="#000000"  /> 
+        </FrameLayout>
+
+</LinearLayout>

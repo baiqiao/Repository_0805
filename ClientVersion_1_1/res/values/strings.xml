@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClientVersion_1_1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="supportopt">支持的项目</string>
+    <string name="discussopt">评论的项目</string>
+    <string name="shareopt">分享的项目</string>
+    <string name="attentionopt">关注的项目</string>
+    <string name="recommendopt">推荐的项目</string>
+    <string name="supportoptnum">6</string>
+    <string name="discussoptnum">5</string>
+    <string name="shareoptnum">22</string>
+    <string name="attentionoptnum">6</string>
+    <string name="recommendoptnum">5</string>
+    <string name="personalsetting">个人设置</string>
+    <string name="accountsetting">账号设置</string>
+    <string name="financialmanagement">财务管理</string>
+    <string name="recharge">充值</string>
+    <string name="amountofpay">支付金额</string>
+    <string name="waytopay">支付方式：</string>
+    <string name="suretopay">确认支付</string>
+    <string name="exit">退出</string>
+    <string name="classification">分类</string>
+    <string name="recommendedopt">推荐项目</string>
+    <string name="hotopt">热门项目</string>
+    <string name="newopt">最新项目</string>
+    <string name="willtofinish">即将结束</string>
+    <string name="designopt">设计</string>
+    <string name="scienceopt">科学</string>
+    <string name="publishopt">出版</string>
+    <string name="movieopt">影视</string>
+    <string name="comicopt">动漫</string>
+    <string name="foodopt">食品</string>
+    <string name="photographopt">摄影</string>
+    <string name="otheropt">其他</string>
+</resources>

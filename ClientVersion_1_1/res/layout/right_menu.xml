@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mybutton="http://www.ligong.android.com/yaolei"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:gravity="center">
+	
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="27dp"
+	            android:textSize="25sp"
+	            android:paddingTop="5dp"
+	        	android:paddingBottom="5dp"
+	            android:text="@string/classification" />
+	        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:background="@drawable/divider_horizontal_line" >
+	    	</LinearLayout>
+	    </LinearLayout>
+	    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <RelativeLayout 
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	        
+		    <LinearLayout
+		        android:id="@+id/r1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:orientation="vertical"
+		         android:layout_marginLeft="54dp"
+		        android:gravity="center" >
+		        
+		        <LinearLayout 
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:paddingTop="10dp"
+		            android:orientation="horizontal">
+		            
+		            <com.example.clientversion_1.view.ImageTextButton
+			            android:id="@+id/right_btn_recommend"
+			            android:layout_width="160dp"
+			            android:layout_height="35.0dip"
+			            android:textSize="21sp"
+			            android:background="#00000000"
+			            android:text="@string/recommendedopt"
+			            android:textColor="@color/pink"
+			            mybutton:icon="@drawable/right_iv_recommend_check" >
+			        </com.example.clientversion_1.view.ImageTextButton>
+				        
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:paddingTop="5dp"
+		            android:orientation="horizontal">
+		            
+		            <com.example.clientversion_1.view.ImageTextButton
+			            android:id="@+id/right_btn_hot"
+			            android:layout_width="160dp"
+			            android:layout_height="35.0dip"
+			            android:textSize="21sp"
+			            android:background="#00000000"
+			            android:text="@string/hotopt"
+			            android:textColor="#000000"
+			            mybutton:icon="@drawable/right_iv_hot_uncheck" >
+			        </com.example.clientversion_1.view.ImageTextButton>
+				        
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:paddingTop="5dp"
+		            android:orientation="horizontal">
+		            
+		            <com.example.clientversion_1.view.ImageTextButton
+			            android:id="@+id/right_btn_new"
+			            android:layout_width="160dp"
+			            android:layout_height="35.0dip"
+			            android:textSize="21sp"
+			            android:background="#00000000"
+			            android:text="@string/newopt"
+			            android:textColor="#000000"
+			            mybutton:icon="@drawable/right_iv_new_uncheck" >
+			        </com.example.clientversion_1.view.ImageTextButton>
+				        
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:paddingTop="5dp"
+		            android:orientation="horizontal">
+		            
+		            <com.example.clientversion_1.view.ImageTextButton
+			            android:id="@+id/right_btn_willtofinish"
+			            android:layout_width="160dp"
+			            android:layout_height="35.0dip"
+			            android:textSize="21sp"
+			            android:background="#00000000"
+			            android:text="@string/willtofinish"
+			            android:textColor="#000000"
+			            mybutton:icon="@drawable/right_iv_willtofinish_uncheck" >
+				    </com.example.clientversion_1.view.ImageTextButton>
+				        
+		        </LinearLayout>
+		        
+		        
+		    </LinearLayout>
+		    
+		    
+		    <LinearLayout
+		        android:id="@+id/r2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:orientation="vertical"
+		        android:paddingTop="8dp"
+		        android:layout_marginLeft="54dp"
+		        android:layout_below="@+id/r1" >
+		        <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical"
+			        android:background="@drawable/divider_horizontal_line" >
+		    	</LinearLayout>
+		
+		        <ListView
+			        android:id="@+id/right_list"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="16dp" >
+			    </ListView>
+			    
+		    </LinearLayout>
+		    
+	    </RelativeLayout>
+        
+        
+    </ScrollView>
+    
+    
+    
+</LinearLayout>
