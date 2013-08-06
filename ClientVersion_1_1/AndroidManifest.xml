@@ -34,6 +34,7 @@
         </activity>
         
         <activity android:name="com.example.clientversion_1.LoginActivity"> </activity>
+        <activity android:name=".PersonalSettingActivity"></activity>
     </application>
 
 </manifest>
